@@ -15,7 +15,7 @@ CONFIG_FILE = "like_channels.json"
 class LikeCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        self.api_host = "https://free-fire-like1.p.rapidapi.com"
+        self.api_host = "https://free-fire-like.p.rapidapi.com/api/bd/7260325122?key=ridoy"
         self.config_data = self.load_config()
         self.cooldowns = {}
         self.session = aiohttp.ClientSession()
